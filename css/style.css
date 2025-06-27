@@ -1,0 +1,49 @@
+#nav{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding:12px;
+}
+#nav a{
+    text-decoration: none;
+    color:white;
+    margin-right:15px;
+    font-family: "Roboto Condensed";
+    font-size:25px;
+}
+body{
+    margin:0px;
+}
+#logo{
+    font-family: "Bebas Neue";
+    font-size:25px;
+}
+header{
+    background-image:url("../images/back.jpg");
+   background-color:rgba(0,0,0,0.4);
+   background-blend-mode: multiply;
+    background-size:cover;
+}
+.container{
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:40px;
+    padding-bottom:80px;
+}
+.headingText{
+    font-size:60px;
+    text-transform: uppercase;
+    color:white;
+    font-family:"Bebas Neue";
+
+
+}
+.width{
+    width:500px;
+}
+.gridclass{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+}
